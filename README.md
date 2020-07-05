@@ -2,9 +2,9 @@
 
 Welcome to this small test automation project you will be visiting https://www.saucedemo.com/ to purchase online products. 
 The automation framework is coded in javascript and using the following:
-- Selenium webdriver
-- Cucumber JS
-- Chai
+- Selenium webdriver framework
+- Cucumber JS BDD
+- Chai assert
 
 You are welcome to download and use this repository. Once you download the repo, go to the path directory folder and run the following commands:
 
