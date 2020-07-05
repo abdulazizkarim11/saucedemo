@@ -1,8 +1,7 @@
-var {Given} = require('cucumber');
-var homePage = require('../objects/object_setup')
-var {Then} = require('cucumber');
-const {setDefaultTimeout} = require('cucumber');
-setDefaultTimeout(60 * 1000);
+var {Given,Then,When} = require('cucumber');
+var homePage = require('../objects/object_setup');
+
+
 
 Given(/^user is logged in$/, function () {
     return homePage.userLogin()
@@ -15,11 +14,6 @@ Then(/^user is on the products page$/,function () {
 });
 Then(/^user selects option price high to low from sort container$/, function () {
     return homePage.productContainer()
-
-});
-
-Then(/^select product$/, function () {
-    return homePage.selectCheapest()
 
 });
 Given(/^user adds to cart sauce labs onesie$/, function () {
