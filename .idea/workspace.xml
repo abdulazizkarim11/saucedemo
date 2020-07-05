@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66fec262-1e07-43a4-be35-f9d6b2954fac" name="Default Changelist" comment="" />
+    <list default="true" id="66fec262-1e07-43a4-be35-f9d6b2954fac" name="Default Changelist" comment="changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="object_setup.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/features/objects/object_setup.js" working-dir="$PROJECT_DIR$/features/objects">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.object_setup.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -54,8 +66,24 @@
       <updated>1593629161120</updated>
       <workItem from="1593629163807" duration="6921000" />
       <workItem from="1593640196155" duration="6858000" />
-      <workItem from="1593715345934" duration="33940000" />
+      <workItem from="1593715345934" duration="40140000" />
+      <workItem from="1593983069966" duration="2670000" />
     </task>
+    <task id="LOCAL-00001" summary="code refactor and clean up">
+      <created>1593988712854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593988712854</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changes and refactor">
+      <created>1593988842700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593988842700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,10 +94,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes" />
+    <MESSAGE value="code refactor and clean up" />
+    <MESSAGE value="changes and refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes and refactor" />
   </component>
 </project>
