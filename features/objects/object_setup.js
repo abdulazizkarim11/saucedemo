@@ -19,11 +19,11 @@ class HomePage {
        })
 
         try {
-            await driver.findElement(By.id("user-name")).sendKeys("standard_user")
-            await driver.findElement(By.id("password")).sendKeys("secret_sauce")
+            await driver.findElement(By.id("user-name")).sendKeys("standard_user");
+            await driver.findElement(By.id("password")).sendKeys("secret_sauce");
             await driver.findElement(By.css(".btn_action")).click();
        } catch (error) {
-           console.log(error)
+           console.log(error);
        }
 
     }
@@ -32,23 +32,23 @@ class HomePage {
         try {
             await driver.findElement(By.className('product_label')).then(function (product) {
                 product.getText().then(function (text) {
-                    console.log(text)
+                    console.log(text);
                 })
             })
         }catch(error){
-            console.log(error)
+            console.log(error);
         }
 
     }
 
     async productContainer(){
         try {
-            let productContainer = await driver.findElement(By.className('product_sort_container'))
+            let productContainer = await driver.findElement(By.className('product_sort_container'));
             await productContainer.click();
-            await driver.findElement(By.xpath('//option[@value="hilo"]')).click()
-            await productContainer.click()
+            await driver.findElement(By.xpath('//option[@value="hilo"]')).click();
+            await productContainer.click();
         } catch (error) {
-            console.log(error)
+            console.log(error);
         }
     }
 
@@ -56,10 +56,10 @@ class HomePage {
 
     async onesieItem(){
         try {
-            await driver.findElement(By.css(".inventory_item:nth-child(6) .btn_primary")).click()
+            await driver.findElement(By.css(".inventory_item:nth-child(6) .btn_primary")).click();
 
         }catch (error){
-            console.log(error)
+            console.log(error);
 
         }
 
@@ -68,9 +68,9 @@ class HomePage {
 
     async bikeLight(){
         try {
-            await driver.findElement(By.css(".inventory_item:nth-child(5) .btn_primary")).click()
+            await driver.findElement(By.css(".inventory_item:nth-child(5) .btn_primary")).click();
         } catch (error){
-            console.log(error)
+            console.log(error);
         }
 
     }
@@ -78,22 +78,24 @@ class HomePage {
 
     async basket(){
         try {
-            await driver.findElement(By.css("path")).click()
+            await driver.findElement(By.css("path")).click();
         } catch (error) {
-            console.log(error)
+            console.log(error);
         }
 
     }
 
+
+
     async checkout() {
         try {
-            let item = await driver.findElements(By.css(".cart_item:nth-child(3) > .cart_item_label"));
+            await driver.findElements(By.css(".cart_item:nth-child(3) > .cart_item_label"));
 
             } catch (error){
-            console.log(error)
+            console.log(error);
 
         }
-        await driver.findElement(By.className('btn_action checkout_button')).click()
+        await driver.findElement(By.className('btn_action checkout_button')).click();
     }
 
 
@@ -102,18 +104,18 @@ class HomePage {
             await driver.findElement(By.id("first-name")).sendKeys("standard_user");
             await driver.findElement(By.id("last-name")).sendKeys("standard_password");
             await driver.findElement(By.id("postal-code")).sendKeys(90210);
-            await driver.findElement(By.className('btn_primary cart_button')).click()
+            await driver.findElement(By.className('btn_primary cart_button')).click();
         }catch(error){
-            console.log(error)
+            console.log(error);
 }
 
     }
 
     async purchaseComplete(){
         try {
-            await driver.findElement(By.className('btn_action cart_button')).click()
+            await driver.findElement(By.className('btn_action cart_button')).click();
         }catch(error){
-            console.log(error)
+            console.log(error);
         }
     }
 
@@ -121,22 +123,20 @@ class HomePage {
         try {
             await driver.findElement(By.className('complete-header')).then(function (message) {
                 message.getText().then(function (message) {
-                    console.log(message)
+                    console.log(message);
 
-                    driver.quit()
+                    driver.quit();
 
                 })
 
             })
         }catch(error){
-            console.log(error)
+            console.log(error);
         }
 
 
-    }
+   }
 
-}
+ }
 
-
-
-module.exports = new HomePage()
+module.exports = new HomePage();
