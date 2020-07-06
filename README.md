@@ -11,10 +11,10 @@ You are welcome to download and use this repository. Once you download the repo,
 This will download the packages dependencies including chromedriver
 example - /Users/username/saucedemo/npm install
 
-Once the dependencies have been downloaded, run the following command to start the test.
+Once the dependencies have been downloaded, run the following command to start the test in the features folder.
 
 This will run the test in chrome 
-example - /Users/username/saucedemo/npm test
+example - /Users/username/saucedemo/features/npm test
 
 If you are having any issues please visit the following links for more information:
 
