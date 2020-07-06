@@ -1,4 +1,6 @@
-var webdriver = require('selenium-webdriver')
+var webdriver = require('selenium-webdriver');
+var chrome = require('selenium-webdriver/chrome');
+const chromedriver = require('chromedriver');
 var By = webdriver.By
 var driver;
 var assert = require('chai').assert;
@@ -6,6 +8,8 @@ var assert = require('chai').assert;
 class HomePage {
 
     constructor() {
+
+        chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
 
         driver = new webdriver.Builder()
             .withCapabilities(webdriver.Capabilities.chrome()).build();
