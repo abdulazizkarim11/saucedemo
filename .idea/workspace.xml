@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66fec262-1e07-43a4-be35-f9d6b2954fac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/objects/object_setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/objects/object_setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/steps_setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/steps_setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="66fec262-1e07-43a4-be35-f9d6b2954fac" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +67,7 @@
       <workItem from="1593640196155" duration="6858000" />
       <workItem from="1593715345934" duration="40140000" />
       <workItem from="1593983069966" duration="3578000" />
+      <workItem from="1594637451252" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="code refactor and clean up">
       <created>1593988712854</created>
@@ -95,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593988869790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jenkins new change folder">
+      <created>1594637569604</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594637569604</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +120,7 @@
     <MESSAGE value="code refactor and clean up" />
     <MESSAGE value="changes and refactor" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="jenkins new change folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins new change folder" />
   </component>
 </project>
