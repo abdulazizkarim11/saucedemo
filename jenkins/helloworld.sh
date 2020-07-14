@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello World"
+echo "./node_modules/.bin/cucumber-js"
